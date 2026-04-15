@@ -1,9 +1,13 @@
 {
   "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/nodemon": "^1.19.6",
+    "@types/pg": "^8.20.0",
     "axios": "^1.15.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "nodemon": "^3.1.14",
     "pg": "^8.20.0"
   },
   "author": "PPL",
@@ -11,7 +15,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
+  "type": "module",  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,7 +24,6 @@
   },
   "keywords": [],
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Roqueexz/GrandPrix-PPL-/issues"
   },
