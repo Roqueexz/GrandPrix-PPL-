@@ -27,7 +27,7 @@
 
 <br />
 
-> 🏆 **Projeto desenvolvido para o Grand Prix** — Tema: *Acessibilidade ligada à inclusão e performance organizacional*  
+>  **Projeto desenvolvido para o Grand Prix** — Tema: *Acessibilidade ligada à inclusão e performance organizacional*  
 > Proposta de solução para o desafio apresentado pela **Petrobras**
 
 <br />
@@ -37,7 +37,7 @@
 ---
 
 
-## 📋 Índice
+##  Índice
 
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [O Problema que Resolvemos](#-o-problema-que-resolvemos)
@@ -47,7 +47,7 @@
 - [Impacto e Métricas](#-impacto-e-métricas)
 ---
 
-## 🎯 Sobre o Projeto
+##  Sobre o Projeto
 
 **CENTRAL** é uma plataforma de inteligência artificial desenhada para transformar a maneira como grandes organizações identificam, compreendem e resolvem demandas de acessibilidade.
 
@@ -73,15 +73,15 @@ A Petrobras possui **~50.000 colaboradores**, sendo **3,2% pessoas com deficiên
 
 O resultado era:
 
-- ❌ **Alto esforço manual** de análise, articulação e encaminhamento
-- ❌ **Sem memória organizacional** — soluções já testadas ficavam invisíveis
-- ❌ **Atuação reativa** sem dados para ação preventiva
-- ❌ **"Cai no vazio"** — colaboradores sem retorno sobre suas solicitações
-- ❌ **Inclusão superficial** — a pessoa é contratada, mas barreiras não são removidas
+-  **Alto esforço manual** de análise, articulação e encaminhamento
+-  **Sem memória organizacional** — soluções já testadas ficavam invisíveis
+-  **Atuação reativa** sem dados para ação preventiva
+-  **"Cai no vazio"** — colaboradores sem retorno sobre suas solicitações
+-  **Inclusão superficial** — a pessoa é contratada, mas barreiras não são removidas
 
 ---
 
-## ⚙️ Como Funciona
+##  Como Funciona
 
 ### Fluxo Geral
 
@@ -96,11 +96,11 @@ O resultado era:
 │                       MOTOR DE IA (Claude)                      │
 │                                                                 │
 │   1. Classificação por tipo de barreira                         │
-│      ├── 🏗️  Física/Arquitetônica                              │
-│      ├── 💬  Comunicação                                        │
-│      ├── 💻  Tecnológica                                        │
-│      ├── 🧠  Atitudinal/Cultural                               │
-│      └── 🏥  Benefícios/Saúde                                  │
+│      ├──   Física/Arquitetônica                              │
+│      ├──   Comunicação                                        │
+│      ├──   Tecnológica                                        │
+│      ├──   Atitudinal/Cultural                               │
+│      └──   Benefícios/Saúde                                  │
 │                                                                 │
 │   2. Priorização (gravidade + frequência + impacto)             │
 │   3. Enriquecimento (normas, soluções similares, responsável)   │
@@ -113,10 +113,10 @@ O resultado era:
 │  Problema: "colega não usa sistema de ponto com leitor de tela" │
 │                                                                 │
 │  Encontra automaticamente:                                      │
-│  ✅ Caso resolvido: "Adaptação RH para NVDA — TIC, 2023"       │
-│  ✅ Norma: "WCAG 2.1 — Critério 1.1.1"                         │
-│  ✅ Fornecedor: "Software X com certificação acessível"         │
-│  ✅ Iniciativa: "Projeto Teclado Acessível — área TIC"          │
+│   Caso resolvido: "Adaptação RH para NVDA — TIC, 2023"       │
+│   Norma: "WCAG 2.1 — Critério 1.1.1"                         │
+│  Fornecedor: "Software X com certificação acessível"         │
+│   Iniciativa: "Projeto Teclado Acessível — área TIC"          │
 └────────────────────────────┬────────────────────────────────────┘
                              │
                     ┌────────┴────────┐
@@ -143,34 +143,34 @@ O resultado era:
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 ### Para o Colaborador
 | Funcionalidade | Descrição |
 |---|---|
-| 🌐 **Omnichannel** | Registro via app, chatbot, e-mail ou QR Code físico |
-| 🤖 **Chatbot acessível** | Conversa natural, inclusive por voz |
-| 🔖 **Protocolo imediato** | Confirmação automática ao registrar |
-| 📊 **Acompanhamento** | Status em tempo real, previsão de resolução |
-| ⭐ **Pesquisa de satisfação** | Feedback ao fechar a demanda |
+| **Omnichannel** | Registro via app, chatbot, e-mail ou QR Code físico |
+| **Chatbot acessível** | Conversa natural, inclusive por voz |
+| **Protocolo imediato** | Confirmação automática ao registrar |
+| **Acompanhamento** | Status em tempo real, previsão de resolução |
+| **Pesquisa de satisfação** | Feedback ao fechar a demanda |
 
 ### Para o Gestor
 | Funcionalidade | Descrição |
 |---|---|
-| 📋 **Resumo gerado por IA** | Problema já compreendido e contextualizado |
-| ⚖️ **Normas aplicáveis** | LBI, NBR 9050, WCAG 2.1 e outras automaticamente linkadas |
-| 💡 **Soluções similares** | Casos já resolvidos internamente, rankeados por relevância |
-| ✅ **Checklist de ações** | Roteiro sugerido pela IA para resolução |
-| ⏱️ **SLA sugerido** | Prazo recomendado com base na urgência |
+|  **Resumo gerado por IA** | Problema já compreendido e contextualizado |
+|  **Normas aplicáveis** | LBI, NBR 9050, WCAG 2.1 e outras automaticamente linkadas |
+|  **Soluções similares** | Casos já resolvidos internamente, rankeados por relevância |
+|  **Checklist de ações** | Roteiro sugerido pela IA para resolução |
+|  **SLA sugerido** | Prazo recomendado com base na urgência |
 
 ### Para a Liderança
 | Funcionalidade | Descrição |
 |---|---|
-| 🗺️ **Mapa de barreiras** | Visualização por área, andar ou unidade |
-| 📈 **Tendências** | Problemas emergentes identificados antes de virar crise |
-| ⚠️ **Alertas de reincidência** | Mesmo problema, mesma área, múltiplas vezes |
-| 🏆 **Score de Inclusão** | Evolução histórica por departamento |
-| 📊 **Métricas de resolutividade** | Tempo médio, taxa de resolução, satisfação |
+|  **Mapa de barreiras** | Visualização por área, andar ou unidade |
+|  **Tendências** | Problemas emergentes identificados antes de virar crise |
+|  **Alertas de reincidência** | Mesmo problema, mesma área, múltiplas vezes |
+|  **Score de Inclusão** | Evolução histórica por departamento |
+|  **Métricas de resolutividade** | Tempo médio, taxa de resolução, satisfação |
 
 ---
 
@@ -188,17 +188,17 @@ O resultado era:
 ---
 
 
-## 📊 Impacto e Métricas
+## Impacto e Métricas
 
 ### Métricas que a plataforma rastreia
 
 ```
-📉 Redução do tempo médio de resolução de demandas
-📈 Taxa de resolutividade por departamento
-🔁 Índice de reincidência (mesmo problema, mesma área)
-⭐ NPS de satisfação dos solicitantes
-🏆 Score de Inclusão por unidade (evolução mensal)
-📋 Volume de demandas por tipo de barreira
+ Redução do tempo médio de resolução de demandas
+ Taxa de resolutividade por departamento
+ Índice de reincidência (mesmo problema, mesma área)
+ NPS de satisfação dos solicitantes
+ Score de Inclusão por unidade (evolução mensal)
+ Volume de demandas por tipo de barreira
 ```
 
 ### Impacto esperado
@@ -210,7 +210,7 @@ O resultado era:
 
 ---
 
-## 📄 Licença
+##  Licença
 
 Este projeto está licenciado sob a [MIT License](./LICENSE).
 
