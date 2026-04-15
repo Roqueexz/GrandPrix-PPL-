@@ -4,14 +4,13 @@
 
 <br />
 
-```
- ██████╗███████╗███╗   ██╗████████╗██████╗  █████╗ ██╗
-██╔════╝██╔════╝████╗  ██║╚══██╔══╝██╔══██╗██╔══██╗██║
-██║     █████╗  ██╔██╗ ██║   ██║   ██████╔╝███████║██║
-██║     ██╔══╝  ██║╚██╗██║   ██║   ██╔══██╗██╔══██║██║
-╚██████╗███████╗██║ ╚████║   ██║   ██║  ██║██║  ██║███████╗
- ╚═════╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
-```
+
+### **C E N T R A L**
+
+*Transformando acessibilidade corporativa com inteligência artificial*
+
+<br />
+
 
 ### **Central Inteligente de Demandas de Acessibilidade**
 
@@ -222,6 +221,6 @@ Este projeto está licenciado sob a [MIT License](./LICENSE).
 
 <br />
 
-[![Made with ♥](https://img.shields.io/badge/Feito_com-♥-red?style=for-the-badge)](https://github.com/Roqueexz/GrandPrix-PPL/central-acessibilidade)
+
 
 </div>
