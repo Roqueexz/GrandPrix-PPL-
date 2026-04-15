@@ -186,7 +186,7 @@ O resultado era:
 | **Frontend** | React 18 + Vite + TailwindCSS | Interface acessível e responsiva |
 | **Backend** | Node.js + TypeScript + Express | Tipagem forte, manutenibilidade |
 | **Banco de Dados** | PostgreSQL + pgvector | Busca semântica nativa e eficiente |
-| **IA** | Claude API (Anthropic) | Classificação, embeddings e geração de contexto |
+| **IA** | OpenAI (gpt-4o-mini) | Classificação, embeddings e geração de contexto |
 | **Notificações** | WebSocket + e-mail (Nodemailer) | Status em tempo real |
 
 
