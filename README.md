@@ -67,7 +67,7 @@ Diretoria não tem visão     →       Dashboard estratégico em
 
 ---
 
-## 🚧 O Problema que Resolvemos
+##  O Problema que Resolvemos
 
 A Petrobras possui **~50.000 colaboradores**, sendo **3,2% pessoas com deficiência**. As demandas de acessibilidade chegavam de forma fragmentada — por e-mail, telefone, conversa informal — para diferentes áreas (RH, TIC, Ergonomia, Saúde, Serviços Prediais) sem qualquer integração.
 
@@ -88,7 +88,7 @@ O resultado era:
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                        CANAIS DE ENTRADA                        │
-│   📱 App/Web   💬 Chatbot   📧 E-mail   📲 QR Code   🔗 Teams  │
+│    App/Web    Chatbot   E-mail    QR Code    Teams  │
 └────────────────────────────┬────────────────────────────────────┘
                              │
                              ▼
