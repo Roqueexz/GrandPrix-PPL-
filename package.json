@@ -8,6 +8,7 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "nodemon": "^3.1.14",
+    "openai": "^6.34.0",
     "pg": "^8.20.0"
   },
   "author": "PPL",
@@ -15,7 +16,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",  "scripts": {
+  "type": "module",
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
