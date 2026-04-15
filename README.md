@@ -1,7 +1,7 @@
 
-
 <div align="center">
 
+<br />
 <br />
 
 
@@ -35,15 +35,21 @@
 
 ---
 
-
-##  Índice
+## Índice
 
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [O Problema que Resolvemos](#-o-problema-que-resolvemos)
 - [Como Funciona](#-como-funciona)
+- [Arquitetura Técnica](#-arquitetura-técnica)
 - [Funcionalidades](#-funcionalidades)
 - [Stack Tecnológica](#-stack-tecnológica)
+- [Instalação e Execução](#-instalação-e-execução)
+- [Estrutura do Projeto](#-estrutura-do-projeto)
+- [API Reference](#-api-reference)
+- [Roadmap do MVP](#-roadmap-do-mvp)
 - [Impacto e Métricas](#-impacto-e-métricas)
+- [Time](#-time)
+
 ---
 
 ##  Sobre o Projeto
@@ -87,7 +93,7 @@ O resultado era:
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                        CANAIS DE ENTRADA                        │
-│    App/Web    Chatbot   E-mail    QR Code    Teams  │
+│    App/Web    Chatbot    E-mail    QR Code    Teams  │
 └────────────────────────────┬────────────────────────────────────┘
                              │
                              ▼
@@ -114,7 +120,7 @@ O resultado era:
 │  Encontra automaticamente:                                      │
 │   Caso resolvido: "Adaptação RH para NVDA — TIC, 2023"       │
 │   Norma: "WCAG 2.1 — Critério 1.1.1"                         │
-│  Fornecedor: "Software X com certificação acessível"         │
+│   Fornecedor: "Software X com certificação acessível"         │
 │   Iniciativa: "Projeto Teclado Acessível — área TIC"          │
 └────────────────────────────┬────────────────────────────────────┘
                              │
@@ -147,11 +153,11 @@ O resultado era:
 ### Para o Colaborador
 | Funcionalidade | Descrição |
 |---|---|
-| **Omnichannel** | Registro via app, chatbot, e-mail ou QR Code físico |
-| **Chatbot acessível** | Conversa natural, inclusive por voz |
-| **Protocolo imediato** | Confirmação automática ao registrar |
-| **Acompanhamento** | Status em tempo real, previsão de resolução |
-| **Pesquisa de satisfação** | Feedback ao fechar a demanda |
+|  **Omnichannel** | Registro via app, chatbot, e-mail ou QR Code físico |
+|  **Chatbot acessível** | Conversa natural, inclusive por voz |
+|  **Protocolo imediato** | Confirmação automática ao registrar |
+|  **Acompanhamento** | Status em tempo real, previsão de resolução |
+|  **Pesquisa de satisfação** | Feedback ao fechar a demanda |
 
 ### Para o Gestor
 | Funcionalidade | Descrição |
@@ -167,13 +173,13 @@ O resultado era:
 |---|---|
 |  **Mapa de barreiras** | Visualização por área, andar ou unidade |
 |  **Tendências** | Problemas emergentes identificados antes de virar crise |
-|  **Alertas de reincidência** | Mesmo problema, mesma área, múltiplas vezes |
+| **Alertas de reincidência** | Mesmo problema, mesma área, múltiplas vezes |
 |  **Score de Inclusão** | Evolução histórica por departamento |
 |  **Métricas de resolutividade** | Tempo médio, taxa de resolução, satisfação |
 
 ---
 
-## 🛠️ Stack Tecnológica
+##  Stack Tecnológica
 
 | Camada | Tecnologia | Justificativa |
 |---|---|---|
@@ -187,17 +193,17 @@ O resultado era:
 ---
 
 
-## Impacto e Métricas
+##  Impacto e Métricas
 
 ### Métricas que a plataforma rastreia
 
 ```
  Redução do tempo médio de resolução de demandas
- Taxa de resolutividade por departamento
- Índice de reincidência (mesmo problema, mesma área)
- NPS de satisfação dos solicitantes
- Score de Inclusão por unidade (evolução mensal)
- Volume de demandas por tipo de barreira
+Taxa de resolutividade por departamento
+Índice de reincidência (mesmo problema, mesma área)
+NPS de satisfação dos solicitantes
+Score de Inclusão por unidade (evolução mensal)
+Volume de demandas por tipo de barreira
 ```
 
 ### Impacto esperado
@@ -209,7 +215,7 @@ O resultado era:
 
 ---
 
-##  Licença
+## Licença
 
 Este projeto está licenciado sob a [MIT License](./LICENSE).
 
@@ -220,7 +226,6 @@ Este projeto está licenciado sob a [MIT License](./LICENSE).
 **CENTRAL** — *Porque acessibilidade não é favor. É direito. E agora, também é dado.*
 
 <br />
-
 
 
 </div>
