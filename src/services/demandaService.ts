@@ -1,47 +1,36 @@
-import { classificarDemanda } from './ClassificadorService';
-import { gerarEmbedding } from './EmbeddingService';
-import { pool } from '../database/pgClient';
-import { AnaliseResult } from '../models';
+import { classificarDemanda } from './classificadorService.js';
+import { gerarEmbedding } from './embeddingService.js';
+import { buscarMatches } from './matchingService.js';
+import { DemandaRepository } from '../repositories/demandaRepository.js';
+import { AnaliseResult } from '../types/index.js';
 
-// função principal chamada pelo controller
 export async function analisarDemanda(descricao: string): Promise<AnaliseResult> {
-  // 1. classificação com IA
+  console.log('🔍 Classificando demanda...');
   const classificacao = await classificarDemanda(descricao);
 
-  // 2. gerar embedding
+  console.log('🧮 Gerando embedding...');
   const embedding = await gerarEmbedding(descricao);
 
-  // 3. salvar demanda no banco
-  const result = await pool.query(
-    `
-    INSERT INTO demandas 
-    (descricao, tipo_barreira, urgencia, area_responsavel, resumo_ia, embedding)
-    VALUES ($1, $2, $3, $4, $5, $6)
-    RETURNING id
-    `,
-    [
-      descricao,
-      classificacao.tipo_barreira,
-      classificacao.urgencia,
-      classificacao.area_responsavel,
-      classificacao.resumo,
-      embedding,
-    ]
-  );
+  console.log('🔎 Buscando matches...');
+  const { solucoes, normas, recursos } = await buscarMatches(embedding);
 
-  const demandaId = result.rows[0].id;
+  console.log('💾 Salvando demanda...');
+  const demanda = await DemandaRepository.salvar({
+    descricao,
+    tipo_barreira: classificacao.tipo_barreira,
+    urgencia: classificacao.urgencia,
+    area_responsavel: classificacao.area_responsavel,
+    resumo_ia: classificacao.resumo,
+    embedding,
+  });
 
-  // 4. MATCHING (MVP - vazio por enquanto)
-  const solucoes: any[] = [];
-  const normas: any[] = [];
-  const recursos: any[] = [];
+  console.log(`✅ Concluído! ID: ${demanda.id}`);
 
-  // 5. resposta final
   return {
     classificacao,
     solucoes,
     normas,
     recursos,
-    demanda_id: demandaId,
+    demanda_id: demanda.id,
   };
 }

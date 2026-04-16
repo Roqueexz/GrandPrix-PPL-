@@ -1,9 +1,9 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import { initDatabase } from './database/pgClient';
-import routes from './routes';
-import { errorHandler } from './middleware/errorHandler';
+import { initDatabase } from './database/pgClient.js';
+import router from './routes.js';
+import { errorHandler } from './middleware/errorHandler.js';
 
 dotenv.config();
 
@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 // ─── ROTAS ───────────────────────────────────────────────
-app.use('/api', routes);
+app.use('/api', router);
 
 // ─── ERRO GLOBAL ─────────────────────────────────────────
 app.use(errorHandler);

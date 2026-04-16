@@ -31,7 +31,7 @@ export async function initDatabase(): Promise<void> {
         custo_estimado TEXT,
         tempo_resolucao TEXT,
         status TEXT NOT NULL DEFAULT 'recomendada',
-        embedding VECTOR(1024),
+        embedding VECTOR(1536),
         criado_em TIMESTAMP DEFAULT NOW()
       );
     `);
@@ -45,7 +45,7 @@ export async function initDatabase(): Promise<void> {
         descricao TEXT NOT NULL,
         fonte TEXT NOT NULL,
         url_referencia TEXT,
-        embedding VECTOR(1024),
+        embedding VECTOR(1536),
         criado_em TIMESTAMP DEFAULT NOW()
       );
     `);
@@ -58,7 +58,7 @@ export async function initDatabase(): Promise<void> {
         tipo TEXT NOT NULL,
         descricao TEXT NOT NULL,
         contato TEXT,
-        embedding VECTOR(1024),
+        embedding VECTOR(1536),
         criado_em TIMESTAMP DEFAULT NOW()
       );
     `);
@@ -72,7 +72,7 @@ export async function initDatabase(): Promise<void> {
         urgencia TEXT,
         area_responsavel TEXT,
         resumo_ia TEXT,
-        embedding VECTOR(1024),
+        embedding VECTOR(1536),
         resolvida BOOLEAN DEFAULT FALSE,
         criado_em TIMESTAMP DEFAULT NOW()
       );
