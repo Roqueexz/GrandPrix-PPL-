@@ -1,4 +1,3 @@
-
 ---
 
 <div align="center">
@@ -37,18 +36,13 @@
 
 ## Índice
 
-- [Sobre o Projeto](#-sobre-o-projeto)
-- [O Problema que Resolvemos](#-o-problema-que-resolvemos)
-- [Como Funciona](#-como-funciona)
-- [Arquitetura Técnica](#-arquitetura-técnica)
-- [Funcionalidades](#-funcionalidades)
-- [Stack Tecnológica](#-stack-tecnológica)
-- [Instalação e Execução](#-instalação-e-execução)
-- [Estrutura do Projeto](#-estrutura-do-projeto)
-- [API Reference](#-api-reference)
-- [Roadmap do MVP](#-roadmap-do-mvp)
-- [Impacto e Métricas](#-impacto-e-métricas)
-- [Time](#-time)
+- [Sobre o Projeto](#sobre-o-projeto)
+- [O Problema que Resolvemos](#o-problema-que-resolvemos)
+- [Como Funciona](#como-funciona)
+- [Funcionalidades](#funcionalidades)
+- [Stack Tecnológica](#stack-tecnológica)
+- [Impacto e Métricas](#impacto-e-métricas)
+- [Licença](#licença)
 
 ---
 
@@ -93,7 +87,7 @@ O resultado era:
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                        CANAIS DE ENTRADA                        │
-│    App/Web    Chatbot    E-mail    QR Code    Teams  │
+│    App/Web    Chatbot    E-mail    QR Code    Teams             │
 └────────────────────────────┬────────────────────────────────────┘
                              │
                              ▼
@@ -101,11 +95,11 @@ O resultado era:
 │                     MOTOR DE IA (ChatGPT)                       │
 │                                                                 │
 │   1. Classificação por tipo de barreira                         │
-│      ├──   Física/Arquitetônica                              │
-│      ├──   Comunicação                                        │
-│      ├──   Tecnológica                                        │
-│      ├──   Atitudinal/Cultural                               │
-│      └──   Benefícios/Saúde                                  │
+│      ├──   Física/Arquitetônica                                 │
+│      ├──   Comunicação                                          │
+│      ├──   Tecnológica                                          │
+│      ├──   Atitudinal/Cultural                                  │
+│      └──   Benefícios/Saúde                                     │
 │                                                                 │
 │   2. Priorização (gravidade + frequência + impacto)             │
 │   3. Enriquecimento (normas, soluções similares, responsável)   │
@@ -118,10 +112,10 @@ O resultado era:
 │  Problema: "colega não usa sistema de ponto com leitor de tela" │
 │                                                                 │
 │  Encontra automaticamente:                                      │
-│   Caso resolvido: "Adaptação RH para NVDA — TIC, 2023"       │
-│   Norma: "WCAG 2.1 — Critério 1.1.1"                         │
-│   Fornecedor: "Software X com certificação acessível"         │
-│   Iniciativa: "Projeto Teclado Acessível — área TIC"          │
+│   Caso resolvido: "Adaptação RH para NVDA — TIC, 2023"         │
+│   Norma: "WCAG 2.1 — Critério 1.1.1"                           │
+│   Fornecedor: "Software X com certificação acessível"           │
+│   Iniciativa: "Projeto Teclado Acessível — área TIC"            │
 └────────────────────────────┬────────────────────────────────────┘
                              │
                     ┌────────┴────────┐
@@ -192,7 +186,7 @@ O resultado era:
 ### Métricas que a plataforma rastreia
 
 ```
- Redução do tempo médio de resolução de demandas
+Redução do tempo médio de resolução de demandas
 Taxa de resolutividade por departamento
 Índice de reincidência (mesmo problema, mesma área)
 NPS de satisfação dos solicitantes
