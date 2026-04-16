@@ -1,5 +1,5 @@
-import { Request, Response, NextFunction } from 'express';
-import { analisarDemanda } from '../services/DemandaService';
+import { analisarDemanda } from '../services/demandaService.js';
+import type { Response, Request, NextFunction } from 'express';
 
 // POST /api/demandas/analisar
 export async function analisar(req: Request, res: Response, next: NextFunction) {
