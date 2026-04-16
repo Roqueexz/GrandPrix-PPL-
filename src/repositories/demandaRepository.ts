@@ -1,5 +1,5 @@
 import { pool } from '../database/pgClient.js';
-import { Demanda } from '../types/index.js';
+import type { Demanda } from '../types/index.js';
 
 export const DemandaRepository = {
   async salvar(data: {
@@ -34,4 +34,4 @@ export const DemandaRepository = {
   async marcarComoResolvida(id: string): Promise<void> {
     await pool.query(`UPDATE demandas SET resolvida = TRUE WHERE id = $1`, [id]);
   },
-};
+};  

@@ -1,5 +1,5 @@
 import { pool } from '../database/pgClient.js';
-import { Norma, MatchResult } from '../types/index.js';
+import type { Norma, MatchResult } from '../types/index.js';
 
 const SIMILARITY_THRESHOLD = 0.4;
 

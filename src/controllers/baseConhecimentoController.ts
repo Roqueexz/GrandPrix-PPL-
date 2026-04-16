@@ -1,5 +1,5 @@
-import { Request, Response } from 'express';
-import { cadastrarSolucao, cadastrarNorma, cadastrarRecurso } from '../services/BaseConhecimentoService';
+import type { Request, Response } from 'express';
+import { cadastrarSolucao, cadastrarNorma, cadastrarRecurso } from '../services/BaseConhecimentoService.js';
  
 /**
  * POST /api/base/solucao

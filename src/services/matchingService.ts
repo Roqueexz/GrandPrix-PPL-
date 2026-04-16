@@ -1,7 +1,7 @@
 import { SolucaoRepository } from '../repositories/solucaoRepository.js';
 import { NormaRepository } from '../repositories/normaRepository.js';
 import { RecursoRepository } from '../repositories/recursoRepository.js';
-import { MatchResult, Solucao, Norma, Recurso } from '../types/index.js';
+import type { MatchResult, Solucao, Norma, Recurso } from '../types/index.js';
 
 interface MatchingResult {
   solucoes: MatchResult<Solucao>[];

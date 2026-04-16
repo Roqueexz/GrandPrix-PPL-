@@ -1,5 +1,5 @@
 import { pool } from '../database/pgClient.js';
-import { Recurso, MatchResult } from '../types/index.js';
+import type { Recurso, MatchResult } from '../types/index.js';
 
 const SIMILARITY_THRESHOLD = 0.4;
 

@@ -2,7 +2,7 @@ import { classificarDemanda } from './classificadorService.js';
 import { gerarEmbedding } from './embeddingService.js';
 import { buscarMatches } from './matchingService.js';
 import { DemandaRepository } from '../repositories/demandaRepository.js';
-import { AnaliseResult } from '../types/index.js';
+import type { AnaliseResult } from '../types/index.js';
 
 export async function analisarDemanda(descricao: string): Promise<AnaliseResult> {
   console.log('🔍 Classificando demanda...');

@@ -2,8 +2,7 @@ import { gerarEmbedding } from './embeddingService.js';
 import { SolucaoRepository } from '../repositories/solucaoRepository.js';
 import { NormaRepository } from '../repositories/normaRepository.js';
 import { RecursoRepository } from '../repositories/recursoRepository.js';
-import { Solucao, Norma, Recurso, SolucaoInput, NormaInput, RecursoInput } from '../types/index.js';
-
+import type { Solucao, Norma, Recurso, SolucaoInput, NormaInput, RecursoInput } from '../types/index.js';
 export async function cadastrarSolucao(input: SolucaoInput): Promise<Solucao> {
   const texto = `${input.titulo}. ${input.descricao}. Área: ${input.area_responsavel}. Tipo: ${input.tipo_barreira}`;
   const embedding = await gerarEmbedding(texto);
