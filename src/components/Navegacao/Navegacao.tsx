@@ -40,16 +40,6 @@ export function Navegacao() {
             >
               Análise
             </Link>
-            <Link
-              to={Routes.DASHBOARD}
-              className={`px-4 py-2 rounded-lg transition-colors ${
-                isActive(Routes.DASHBOARD)
-                  ? 'bg-secondary text-secondary-foreground font-semibold'
-                  : 'hover:bg-primary-foreground/10'
-              }`}
-            >
-              Dashboard
-            </Link>
           </nav>
         </div>
       </div>

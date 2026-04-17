@@ -1,0 +1,1 @@
+export { PAdministrador } from './PAdministrador';

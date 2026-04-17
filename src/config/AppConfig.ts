@@ -92,4 +92,5 @@ export const Routes = {
   HOME: '/',
   MATCHING: '/matching',
   DASHBOARD: '/dashboard',
+  ADMINISTRADOR: '/administrador',
 } as const;

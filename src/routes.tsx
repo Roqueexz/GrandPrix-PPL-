@@ -3,6 +3,7 @@ import { App } from './App';
 import { PHome } from './pages/PHome/PHome';
 import { PMatching } from './pages/PMatching/PMatching';
 import { PDashboard } from './pages/PDashboard/PDashboard';
+import { PAdministrador } from './pages/PAdministrador/PAdministrador';
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
       {
         path: '/dashboard',
         element: <PDashboard />,
+      },
+      {
+        path: '/administrador',
+        element: <PAdministrador />,
       },
     ],
   },
