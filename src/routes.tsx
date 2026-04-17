@@ -1,5 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 import { App } from './App';
+import { AdminLayout } from './layouts/AdminLayout';
 import { PHome } from './pages/PHome/PHome';
 import { PMatching } from './pages/PMatching/PMatching';
 import { PDashboard } from './pages/PDashboard/PDashboard';
@@ -22,6 +23,12 @@ export const router = createBrowserRouter([
         path: '/dashboard',
         element: <PDashboard />,
       },
+    ],
+  },
+  {
+    path: '/administrador',
+    element: <AdminLayout />,
+    children: [
       {
         path: '/administrador',
         element: <PAdministrador />,
